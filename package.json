@@ -4,7 +4,8 @@
   "description": "reddit clone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,13 @@
   "author": "hrushi",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "balanced-match": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "core-util-is": "^1.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "mongoose": "^5.7.3",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "devDependencies": {}
 }
